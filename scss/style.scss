@@ -1,0 +1,40 @@
+
+@import 'header';
+@import 'footer';
+@import 'barra';
+
+
+.botonVolador {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card:hover {
+    transform: scale(0.9);
+   }
+
+   @media only screen and (min-width: 401px ) and (max-width: 960px) {
+    body {
+    background-color: white;
+    }
+    img {
+        max-width: 100%;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: white;
+    }   
+    img {
+        max-width: 100%;
+        width: auto;
+    } 
+}
+

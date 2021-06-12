@@ -1,0 +1,19 @@
+@import 'functions/extends';
+@import 'functions/colors';
+
+
+footer {
+        background-color: $dark;
+        
+
+        @media (maxwidth: 768px) {
+            background-color: rgb(107, 107, 37);
+            
+        }
+
+        nav {
+            border-radius: 20px;
+            
+            }
+            @extend %flexbox;
+        }

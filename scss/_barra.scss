@@ -1,0 +1,11 @@
+@import 'functions/extends';
+@import 'functions/colors';
+.barra {
+        /*operaciones*/
+        background-color: $dark;
+        @media (maxwidth: 400px) {
+                background-color: white;
+        }
+      
+        @extend %flexbox;
+}
