@@ -11,11 +11,13 @@ header {
   background-color: antiquewhite;
   margin-top: 0 !important;
   padding-top: 0 !important;
-  position: fixed;
+  position: relative;
   text-align: left !important;
   top: 0;
   width: 100%;
   z-index: 1000;
+  justify-content:space-around;
+  
 }
 @media (maxwidth: 768px) {
   header header {
