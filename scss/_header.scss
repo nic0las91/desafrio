@@ -2,17 +2,20 @@
 
 
 header {
-    background-color: #333 ;
+    background-color: antiquewhite ;
+    
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    position: fixed;
+    text-align: left !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  
 
     @media (maxwidth: 768px) {
-        background-color: rgb(107, 107, 37);
-        
+        header {background-color: rgb(107, 107, 37);
     }
 
-    nav {
-        border-radius: 20px;
-        
-        }
-        
-        @extend %flexbox;
-    }
+}}
+    

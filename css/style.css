@@ -1,4 +1,4 @@
-.barra, footer, header {
+.barra, footer {
   color: antiquewhite;
   width: 100%;
   padding: 20px 0;
@@ -8,19 +8,22 @@
 }
 
 header {
-  background-color: #333;
+  background-color: antiquewhite;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  position: fixed;
+  text-align: left !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 @media (maxwidth: 768px) {
-  header {
+  header header {
     background-color: #6b6b25;
   }
 }
 
-header nav {
-  border-radius: 20px;
-}
-
-.barra, footer, header {
+.barra, footer {
   color: antiquewhite;
   width: 100%;
   padding: 20px 0;
@@ -41,7 +44,7 @@ footer nav {
   border-radius: 20px;
 }
 
-.barra, header, footer {
+.barra, footer {
   color: antiquewhite;
   width: 100%;
   padding: 20px 0;
@@ -85,7 +88,7 @@ a {
     width: auto;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: white;
   }
@@ -94,9 +97,8 @@ a {
     max-width: 100%;
     width: auto;
   }
-
 }
-@media only screen and (min-width: 961px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: white;
   }
